@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: nacos-config-discovery
+  profiles:
+    active: dev
+  config:
+    use-legacy-processing: true

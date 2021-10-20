@@ -1,0 +1,17 @@
+nacos:
+  discovery:
+    server-addr: 192.168.122.22:8848
+    username: nacos
+    password: nacos
+  config:
+    server-addr: 192.168.122.22:8848
+    username: nacos
+    password: nacos
+    namespace: 24373c8c-3894-419b-83eb-b6b9433a9721
+    data-id: nacos-config-discovery-dev.yaml
+    auto-refresh: true
+    group: TEST_GROUP
+    type: yaml
+    bootstrap:
+      enable: true
+      log-enable: true
